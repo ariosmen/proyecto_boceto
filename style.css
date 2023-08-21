@@ -13,22 +13,22 @@ nav {
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    text-align: center;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-ul {
+.ul {
+    height: 50px;
+    width: 500px;
     display: flex;
     justify-content: center;
-    gap: 5%;
-}
-
-li {
+    align-items: center;
+    gap: 13px;
+    text-align: center;
     list-style: none;
+    padding: -40px;
 }
 
-ul a {
+.ul a {
     text-decoration: none;
     color: #fff;
 }
@@ -42,6 +42,9 @@ ul a {
 }
 
 @media (max-width: 768px) {
+    nav {
+        justify-content: none;
+    }
     .logo {
         display: none;
     }
